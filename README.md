@@ -7,7 +7,7 @@
 
 [Quizzical - netlify link](https://quiz-app-agnkos.netlify.app/)
 
-![project image](./public/images/screen.jpg | width=200)
+<img src='./public/images/screen2.jpg' width='400'> 
 
 #### Project description:
 - Two screens (start & questions)
