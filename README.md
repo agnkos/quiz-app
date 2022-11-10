@@ -1,17 +1,13 @@
 ## Quiz App 
 
-### built in React
+### Built in React
 ### Scrimba solo project - [React basics course by Bob Ziroll](https://scrimba.com/learn/learnreact)
-
-<<<<<<< HEAD
-![project image](./public/images/screen.jpg | width=200)
-=======
-![project image](./public/images/screen.jpg)
->>>>>>> c0e651c295c2e180e475efea82b1180784ecd3c3
 
 **Project page**:
 
 [Quizzical - netlify link](https://quiz-app-agnkos.netlify.app/)
+
+![project image](./public/images/screen.jpg | width=200)
 
 #### Project description:
 - Two screens (start & questions)
