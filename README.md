@@ -1,6 +1,7 @@
 ## Quiz App 
 
 ### Built in React
+[![Built with](https://skillicons.dev/icons?i=react,js,css,html)](https://skillicons.dev)
 ### Scrimba solo project - [React basics course by Bob Ziroll](https://scrimba.com/learn/learnreact)
 
 **Project page**:
