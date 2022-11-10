@@ -1,0 +1,148 @@
+/* reset & general */
+
+body,
+* {
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #293264;
+}
+
+body,
+h1,
+p {
+    margin: 0;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    padding: 2em;
+    background: bottom left no-repeat url('../public/images/blob1.png'),
+        top right no-repeat url('../public/images/blob2.png') #F5F7FB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* start page */
+
+.start-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: .25em;
+}
+
+/* buttons */
+
+.btn {
+    background-color: #4D5B9E;
+    color: #F5F7FB;
+    border: 0;
+    font-weight: 500;
+    padding: 1em 3em;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:focus,
+.btn:hover {
+    background-color: #2a3fa8;
+    outline: 2px solid #293264;
+}
+
+.start-btn {
+    margin-top: 2em;
+    font-size: 1rem;
+}
+
+.check-btn {
+    display: block;
+    font-size: .75rem;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.restart-btn {
+    display: block;
+    font-size: .75rem;
+}
+
+/* quiz page */
+
+.quiz-container {
+    max-width: 650px;
+}
+
+.question-container {
+    border-bottom: 1px solid #DBDEF0;
+    padding: 1em 0;
+}
+
+.question {
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+.answers-container {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.answer {
+    padding: .25em 2em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: .75rem;
+    border: 1px solid #4D5B9E;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.answer:hover {
+    outline: 1px solid #293264;
+}
+
+.score-div {
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+
+@media (max-width: 500px) {
+
+    .main-container {
+        background-attachment: fixed;
+        min-height: 100vh;
+        min-width: 100vw;
+        height: 100%;
+        width: 100%;
+    }
+
+    .answers-container {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .score-div {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
