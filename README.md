@@ -3,7 +3,7 @@
 ### built in React
 ### Scrimba solo project - [React basics course by Bob Ziroll](https://scrimba.com/learn/learnreact)
 
-![project image](../public/images/screen.jpg)
+![project image](./public/images/screen.jpg)
 
 **Project page**:
 
